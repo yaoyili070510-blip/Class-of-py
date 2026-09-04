@@ -1,0 +1,10 @@
+import random
+count = 0
+for _ in range(100000000):
+  x = random.random()
+  y = random.random()
+  if x**2 + y**2 <= 1:
+    count += 1
+
+pi = 4 * count / 1000000000
+print(pi)
