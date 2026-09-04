@@ -1,0 +1,6 @@
+N = float(input("请输入要开五次方的数："))
+x = N / 5 if N > 1 else 1.0
+if x == 0:
+    x = 1.0
+tolerance = 1e-8
+max_step = 100
